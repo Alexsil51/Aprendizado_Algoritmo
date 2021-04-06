@@ -1,0 +1,89 @@
+package Exercicios;
+
+import java.util.Scanner;
+
+public class TEste {
+	
+	public static void main(String[] arg) {
+
+
+		int contador = 0;
+		String letra;
+		
+		
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		
+		
+		
+			
+			System.out.println("\n**Teste Seu Conhecimento** Normalmente, quantos litros de sangue uma pessoa tem? Em média, quantos são retirados numa doação de sangue?" + "\n\na) Tem entre 2 a 4 litros. São retirados 450 mililitros"
+			+ "\n\nb) Tem entre 4 a 6 litros. São retirados 450 mililitros" + "\n\nc) Tem 10 litros. São retirados 2 litros" + "\n\nd) Tem 7 litros. São retirados 1,5 litros" + "\n\ne) Tem 0,5 litros. São retirados 0,5 litros");
+			
+			
+			
+		
+			do  { 			
+				
+		
+				letra = entrada.nextLine();
+				
+			
+			switch (letra){
+
+		     case "a":
+		         System.out.println("\nResposta Incorreta Tente Novamente");
+		         
+		         if (contador <= 3) {
+		     		contador++;
+		         }
+		         
+		         if (contador > 3) {
+		         System.out.println("\nAcabou Numero Tentativas" + "\nQuantidade Tentativas: " + contador);
+		         }
+		        
+		         else {
+		        	contador >= 3
+		         }
+		         
+		         break;
+		        	 
+		        
+		         
+		         
+		     case "b":
+		         System.out.println("\nResposta Correta !!" + "\nQuantidade Tentativas: " + contador);
+		         break;
+		     case "c":
+		         System.out.println("\nResposta Incorreta Tente Novamente");
+		         break;
+		       
+		     case "d":
+		         System.out.println("\nResposta Incorreta Tente Novamente");
+		         break;
+		         
+		     case "e":
+		         System.out.println("\nResposta Incorreta Tente Novamente");
+		         break;
+		         
+		        
+		         
+		     default:
+	                System.out.println("Resposta Devem ser inseridas entre Alternativas A Até E");
+	                break;
+	                
+			
+	                
+}
+		}
+		
+			
+			while (letra != "a");
+			System.out.println("Obrigado !!");
+		
+
+    }
+}
+		 
+	

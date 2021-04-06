@@ -1,0 +1,2 @@
+module ADO_2 {
+}
