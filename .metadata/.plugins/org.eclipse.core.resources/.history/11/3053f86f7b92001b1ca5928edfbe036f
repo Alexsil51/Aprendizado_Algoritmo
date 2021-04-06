@@ -1,0 +1,60 @@
+package Exercicios;
+
+public class Multipla_Escolha_Contador (int Origem, double Preco) {
+
+
+	 double Preco;
+	 int Origem;
+	
+
+
+
+	{
+	    this.Origem = Origem;
+	    this.Preco = Preco;
+	}
+
+	switch (Origem)
+	        {
+	        case 1:
+	            System.out.println(Preco +"- Produto do Sul");
+	            break;
+	        case 2:
+	            System.out.println(Preco +"- Produto do Norte");
+	            break;
+	        case 3:
+	            System.out.println(Preco +"- Produto do Leste");
+	            break;
+	        case 4:
+	            System.out.println(Preco +"- Produto do Oeste");
+	        case 7:
+	        case 8:
+	        case 9:
+	            System.out.println(Preco +"- Produto do Sudeste");
+	            break;
+	        case 10:
+	        case 11:
+	        case 12:
+	        case 13:
+	        case 14:
+	        case 15:
+	        case 16:
+	        case 18:
+	        case 19:
+	        case 20:
+	            System.out.println(Preco +"- Produto do Centro-Oeste");
+	            break;
+	        case 5:
+	        case 6:
+	        case 25:
+	        case 26:
+	        case 27:
+	        case 28:
+	        case 29:
+	        case 30:
+	            System.out.println(Preco +"- Produto do Nordeste");
+	            
+	            default:
+	            System.out.println(Preco +"- Produto Importado");
+	}
+}
