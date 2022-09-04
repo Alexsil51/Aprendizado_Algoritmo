@@ -1,5 +1,6 @@
 package Exercicios;
 
+
 import java.util.Scanner;
 
 public class Multipla_Escolha_Contador  {
@@ -13,17 +14,23 @@ public static void main(String[] args) {
 	
 	
 	
+
+	
+	
 	Scanner entrada = new Scanner(System.in);
 	
 	
-	
+	 
 	
 		
 		System.out.println("\n**Teste Seu Conhecimento Em Administração Cientifica** \n\nDentre as Teorias de Administração, aquela que tem, entre suas principais propostas, a conservação dos recursos naturais como "
 				+ "\nfase preliminar da eficiência nacional, " 
-				+ "a eficiência no trabalho através da racionalização\ne a especialização de tarefas, é a Escola."
-				+ "\n\na) Estruturalista." 
-		+ "\n\nb) de Administração Científica." + "\n\nc) de Relações Humanas." + "\n\nd) Burocrática." + "\n\ne) Neoclássica.");
+				+ "a eficiência no trabalho através da racionalização e a especialização de tarefas, é a Escola?");
+		
+		System.out.println( "\n\na) Estruturalista." + "\n\nb) de Administração Científica." + "\n\nc) de Relações Humanas." + "\n\nd) Burocrática." + "\n\ne) Neoclássica.");
+		
+		
+		
 		
 		
 		
@@ -32,6 +39,8 @@ public static void main(String[] args) {
 			
 	
 			letra = entrada.nextLine();
+			
+			
 			
 		
 		switch (letra){
@@ -46,8 +55,14 @@ public static void main(String[] args) {
 	         if (contador >= 3) {
 	         System.out.println("\nAcabou Numero Tentativas" + "\nQuantidade Tentativas: " + contador);
 	         }
-	        
+	         
 	         break;
+	         
+	        	
+				 
+				
+	         
+	       
 	        	 
 	        
 	         

@@ -6,31 +6,13 @@ public class Testes {
 	
 	 public static void main(String[] args) {
 	        
-		 Scanner input = new Scanner(System.in);
-		    
-		 float base;
-			float altura;
-			float area;
-			
-			
-			
-			System.out.print("\nDigite a Base do Triângulo: ");
-
-			base = input.nextFloat();
-			
-			System.out.print("\nDigite a Altura do Triângulo: ");
-
-			altura = input.nextFloat();
-			
-			area = (base * altura)/ 2;
-			
-			
-			double a; a = Math.sqrt(base * base + altura * altura);
-			
-			System.out.println("\nArea do Triangulo é: " + area);
-			
-			
-			System.out.println("\nHipotenusa do Triangulo é: " + a);
+		 int i=1, s=1, n=10;
+		 while(i<=n) {
+			 s = s * i;
+			 i++;
+			 
+			 System.out.println("Número de tentativas: " + s);
+		 }
 			
 		}
 }
